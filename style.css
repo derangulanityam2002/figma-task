@@ -1,0 +1,198 @@
+/* Your custom styles */
+
+.product-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.seller-info {
+  font-size: 18px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.product-summary-card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-lg {
+  padding: 15px 30px;
+}
+
+#cart-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#cart-items {
+  list-style: none;
+  padding: 0;
+}
+body {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 20px; /* Add some padding to the body */
+}
+
+.product-details,
+.product-summary {
+  padding: 1rem; /* Add padding to product sections */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.product-title {
+  margin-bottom: 1rem; /* Add some margin below the title */
+}
+
+.size-color-selection {
+  display: flex; /* Arrange size and color selects horizontally */
+}
+body {
+  font-family: Arial, sans-serif; /* Choose a suitable font */
+  background-color: #f0f0f0; /* Lighter background color */
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.product-details {
+  background-color: #fff; /* White background for product details */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.product-summary {
+  background-color: #f5f5f5; /* Light gray background for product summary */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.product-title {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.seller-info {
+  font-size: 14px;
+  color: #888; /* Gray color for seller info */
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.size-color-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.size-color-selection label {
+  font-weight: bold;
+}
+
+.form-select {
+  width: 100%;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-price-text {
+  color: #007bff; /* Blue color for the price */
+}
+
+.badge {
+  font-size: 12px;
+  padding: 0.5rem 1rem;
+}
+
+.cart-container {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-total {
+  font-weight: bold;
+}
+/* Typography */
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* Colors */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #f0f0f0;
+  --accent-color: #ff6347;
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+
+/* Layout */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Buttons */
+button {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Forms */
+input,
+select {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
